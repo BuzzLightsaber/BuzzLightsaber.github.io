@@ -1,0 +1,6 @@
+<svg class='icon'>
+  {%- capture icon_path -%}
+    /assets/icons/{{ include.icon }}.svg#{{ include.icon }}
+  {%- endcapture -%}
+  <use href='{{ icon_path | relative_url }}' xlink:href='{{ icon_path | relative_url }}'></use>
+</svg>

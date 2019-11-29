@@ -1,1 +1,4 @@
-no pain no gain
+---
+layout: home
+---
+
